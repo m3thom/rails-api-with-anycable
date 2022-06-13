@@ -21,5 +21,8 @@ bundle exec anycable
 # ws
 anycable-go --port=8080
 
+# If you are using foreman
+foreman start
+
 ```
 
