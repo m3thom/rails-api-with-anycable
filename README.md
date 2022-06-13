@@ -9,13 +9,16 @@ bundle install
 rails db:create
 
 rails db:migrate
+
+brew install anycable-go
+
 ```
 
 # Start
 
 ```bash
 # server
-bundle exec rails s --port 3000
+bundle exec rails s --port 3000 -b 0.0.0.0
 # anycable
 bundle exec anycable
 # ws
